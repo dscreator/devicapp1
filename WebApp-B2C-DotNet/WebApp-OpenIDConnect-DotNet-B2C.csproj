@@ -173,6 +173,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="README.md" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Compile Include="App_Start\Startup.Auth.cs" />
@@ -184,7 +185,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Properties\PublishProfiles\DevicApp1 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\DevicApp1 - Web Deploy.pubxml" />
-    <Content Include="README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
