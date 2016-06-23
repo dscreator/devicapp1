@@ -4,6 +4,7 @@ AADB2C has a new type of [policy](https://azure.microsoft.com/documentation/arti
 If this is your first time experiementing with Azure AD B2C, we recommend starting with our developer guide located at [aka.ms/aadb2c](http://aka.ms/aadb2c).  If instead you would like to see how the sign up policy & the sign-in policy work in a two-button configuration, check out [this tutorial](https://azure.microsoft.com/documentation/articles/active-directory-b2c-devquickstarts-web-dotnet/).
 ++++++++
 1. change via feature 1 branch
+3. change via feature branch
 +++++++++++++
 
 ## About the code
