@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp-OpenIDConnect-DotNet-B2C", "WebApp-B2C-DotNet\WebApp-OpenIDConnect-DotNet-B2C.csproj", "{07D1C353-4626-4D20-A804-531517BCF3F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devicapp1", "WebApp-B2C-DotNet\devicapp1.csproj", "{07D1C353-4626-4D20-A804-531517BCF3F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A5BAB439-D66F-4E73-A66C-2A2A18DC2505}"
 	ProjectSection(SolutionItems) = preProject
