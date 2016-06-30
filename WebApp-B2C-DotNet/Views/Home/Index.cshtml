@@ -8,20 +8,8 @@
         <h1>Welcome @ViewBag.DisplayName</h1>
         <hr/> 
         
-        <h4>Claims Present in the Claims Identity: @ViewBag.DisplayName</h4>
-        <table class="table table-hover table-striped table-condensed">
-            <tr>
-                <th>Claim Type</th>
-                <th>Claim Value</th>
-            </tr>
-            @foreach (Claim claim in ClaimsPrincipal.Current.Claims)
-            {
-                <tr>
-                    <td>@claim.Type</td>
-                    <td>@claim.Value</td>
-                </tr>
-            }
-        </table>
+        <img src="~/Content/island.JPG" />
+
         <p><a class="btn btn-default" href="http://aka.ms/aadb2c">Learn more about Azure Active Directory B2C&raquo;</a></p>
     </div>
     <!--<div class="col-md-4">
