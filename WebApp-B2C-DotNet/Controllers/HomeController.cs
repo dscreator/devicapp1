@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using WebApp_OpenIDConnect_DotNet_B2C.Policies;
 
+
 namespace WebApp_OpenIDConnect_DotNet_B2C.Controllers
 {
 
@@ -16,7 +17,10 @@ namespace WebApp_OpenIDConnect_DotNet_B2C.Controllers
         {
             Claim displayName = ClaimsPrincipal.Current.FindFirst(ClaimsPrincipal.Current.Identities.First().NameClaimType);
             ViewBag.DisplayName = displayName != null ? displayName.Value : string.Empty;
-            
+
+
+
+
             return View();
         }
 
@@ -26,6 +30,8 @@ namespace WebApp_OpenIDConnect_DotNet_B2C.Controllers
         {
             Claim displayName = ClaimsPrincipal.Current.FindFirst(ClaimsPrincipal.Current.Identities.First().NameClaimType);
             ViewBag.DisplayName = displayName != null ? displayName.Value : string.Empty;
+            
+
             return View();
         }
 
