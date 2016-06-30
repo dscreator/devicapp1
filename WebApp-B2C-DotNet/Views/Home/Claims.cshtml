@@ -9,13 +9,15 @@
 <table class="table table-hover table-striped table-condensed">
     <tr>
         <th>Identity Name</th>
-        <th>Identity Label</th>
+        <th>IsAuthenticated</th>
+        <th>AuthenticationType</th>
     </tr>
     @foreach (ClaimsIdentity id in ClaimsPrincipal.Current.Identities)
     {
         <tr>
             <td>@id.Name</td>
-            <td>@id.Label</td>
+            <td>@id.IsAuthenticated</td>
+            <td>@id.AuthenticationType</td>
         </tr>
     }
 </table>
